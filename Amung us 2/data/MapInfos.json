@@ -8,6 +8,6 @@ null,
 {"id":6,"expanded":false,"name":"forest","order":6,"parentId":0,"scrollX":1404,"scrollY":790.2857142857142},
 {"id":7,"expanded":false,"name":"Town","order":7,"parentId":0,"scrollX":819,"scrollY":461},
 {"id":8,"expanded":false,"name":"Town House 1","order":8,"parentId":0,"scrollX":819,"scrollY":461},
-{"id":9,"expanded":false,"name":"path to Cave 1 from front yard","order":9,"parentId":0,"scrollX":1404,"scrollY":790.2857142857142},
-{"id":10,"expanded":false,"name":"cave from front yard","order":10,"parentId":0,"scrollX":1404,"scrollY":790.2857142857142}
+{"id":9,"expanded":false,"name":"path to Cave 1 from front yard","order":9,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":10,"expanded":false,"name":"cave from front yard","order":10,"parentId":0,"scrollX":816,"scrollY":790}
 ]
