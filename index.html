@@ -1,59 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Coffee?!?</title>
+    <title>My Portfolio</title>
     <style>
-        /* A style is a selector, with a list of delarations in cutly braces.
-            A declaration is a property/value pair that ends with a semicolon */
-        body {
-            background-color: #222222;
-            color: #cccccc;
+        #flexyBoy{
+            width: 90%;
+            background-color: rgb(95, 158, 160);
+            display: flex;
+            justify-content: space-around;
         }
-
-        /* You can list multiple selectors seperated by commas. */
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            color: #ffffff;
+        .flexyKids{
+            margin: 5px;
+            padding: 5px;
+            width: 40%;
+            background-color: rgb(179, 121, 74);
         }
-
-        a {
-            color: #999999;
-
-        }
-
-        /* Select a elment by it's id attribute */
-        #toilet {
-            float: right;
-        }
-
-        /* select elements by their class */
-        .blogtext {
-
-            font-style: italic;
-
+        @media  screen and (max-width: 800px) {
+            #flexyBoy{
+                display: block;
+            }
+            .flexyKids{
+                width: 90%;
+            }
         }
     </style>
 </head>
-
-<body onload="askForName()">
-    <!-- This is a HTML comment -->
-    <h1>Бесплатный кофе здесь</h1>
-    <p class="blogtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec fringilla ipsum, non dapibus nisi. Nullam commodo eros vitae lorem pulvinar accumsan. Sed porta velit ut leo dapibus gravida. Fusce hendrerit at nunc vitae vestibulum. Pellentesque leo mauris, tempus et dui a, volutpat tincidunt est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce rhoncus lorem aliquam eros viverra rhoncus.</p>
-    <img id="toilet" src="img/thetoilet.jfif" alt="FloDiNg ToIleT"/>
-    <br>
-        <p>beans we have</p>
-    <ul>
-        <li>Black Beans</li>
-        <li>idk</li>
-    </ul>
-</body>
-
+<Body>
+    <div id="flexyBoy">
+        <div class="flexyKids">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet imperdiet eros. Integer condimentum posuere leo, non aliquam velit interdum sed. Nam in orci interdum, sodales orci at, tincidunt leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed vel commodo ex, sit amet tempus ex. Proin sollicitudin enim quis rhoncus maximus. Fusce volutpat placerat urna, ut auctor nisi pharetra in. Vivamus lacus turpis, malesuada a porta sed, commodo ac eros. Aliquam condimentum quis ipsum vel pharetra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur viverra pretium felis, gravida blandit diam convallis ut. Pellentesque scelerisque enim vel nisl luctus cursus. Integer fringilla vestibulum erat eu cursus. Sed non risus enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut dui eu dolor facilisis scelerisque nec vitae justo.</div>
+        <div class="flexyKids">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet imperdiet eros. Integer condimentum posuere leo, non aliquam velit interdum sed. Nam in orci interdum, sodales orci at, tincidunt leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed vel commodo ex, sit amet tempus ex. Proin sollicitudin enim quis rhoncus maximus. Fusce volutpat placerat urna, ut auctor nisi pharetra in. Vivamus lacus turpis, malesuada a porta sed, commodo ac eros. Aliquam condimentum quis ipsum vel pharetra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur viverra pretium felis, gravida blandit diam convallis ut. Pellentesque scelerisque enim vel nisl luctus cursus. Integer fringilla vestibulum erat eu cursus. Sed non risus enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut dui eu dolor facilisis scelerisque nec vitae justo.</div>
+    </div>
+</Body>
 </html>
